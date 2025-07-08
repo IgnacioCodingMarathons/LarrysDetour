@@ -19,3 +19,5 @@ to-dos.txt
 *.aup3-shm
 *.aup3-wal
 aa.py
+# remove pycache
+resources/srcLibs/__pycache__
