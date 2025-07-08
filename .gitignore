@@ -1,0 +1,21 @@
+# ignore build files
+dist/
+build/
+*.exe
+*.app
+*.apk
+# ignore the aseprite folder
+resources/graphics/aseprite
+# ignore  T H U M B S
+Thumbs.db
+# ignore personal files
+*.fla
+*.swf
+plan.txt
+script.txt
+to-dos.txt
+*.aup3
+*.aup3_compact_temp
+*.aup3-shm
+*.aup3-wal
+aa.py

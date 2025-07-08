@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dreidel.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dreidel0000" x="0" y="0" width="157" height="332"/>
+	<SubTexture name="dreidel0001" x="157" y="0" width="157" height="332"/>
+	<SubTexture name="dreidel0002" x="314" y="0" width="157" height="332"/>
+	<SubTexture name="dreidel0003" x="471" y="0" width="157" height="332"/>
+	<SubTexture name="spinning0000" x="0" y="0" width="157" height="332" frameX="0" frameY="-19" frameWidth="157" frameHeight="332"/>
+	<SubTexture name="spinning0001" x="628" y="0" width="97" height="329" frameX="-39" frameY="-23" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0002" x="725" y="0" width="181" height="326" frameX="-7" frameY="-29" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0003" x="906" y="0" width="105" height="325" frameX="-45" frameY="-29" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0004" x="0" y="332" width="42" height="324" frameX="-77" frameY="-30" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0005" x="42" y="332" width="88" height="325" frameX="-58" frameY="-14" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0006" x="130" y="332" width="189" height="326" frameX="-11" frameY="0" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0007" x="319" y="332" width="225" height="323" frameX="-13" frameY="-23" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0008" x="544" y="332" width="250" height="331" frameX="-21" frameY="-40" frameWidth="271" frameHeight="371"/>
+	<SubTexture name="spinning0009" x="794" y="332" width="99" height="331" frameX="-43" frameY="-15" frameWidth="271" frameHeight="371"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+{
+    "name": "Shopper",
+    "typingSound": null,
+    "animationsRoot": "shopper",
+    "animations": ["tired","angry","happy"]
+}

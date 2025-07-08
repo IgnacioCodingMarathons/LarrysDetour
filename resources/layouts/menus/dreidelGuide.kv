@@ -1,0 +1,33 @@
+# WARNING: This is a Kivy layout file for Larry's Detour. This is a critical file in the game, and if it went missing, the game would crash
+# as soon as this layout is displayed. Please don't mess around with this file unless you know what you're doing.
+#:set tabs ["Guide"]
+<Guide@BoxLayout>:
+    orientation: "vertical"
+    spacing: 10
+    padding: 20
+    Label: # Font: vcr.ttf, Style: Bold, Italic, Size: Big
+        text: "HOW TO PLAY: THE DREIDEL GAME"
+        font_name: "resources/fonts/vcr.ttf"
+        font_size: self.height * 0.25
+        size_hint_y: None
+        height: root.height * 0.4
+        halign: "center"
+        valign: "middle"
+        text_size: self.size
+    # Separator line
+    Label:
+        text: "The dreidel game is simple."
+    Image:
+        source: "resources/graphics/menus/dreidelSides.avif"
+        size_hint: None, None
+        size: self.texture_size
+    Label:
+        text: """The dreidel has 4 sides: [b]Nun (נ), Gimel (ג), Hey (ה) and Shin (ש).[/b]
+        Every time it’s your turn, spin the dreidel once. Depending on the side it lands on, you give or get game pieces from the pot.
+        If you get [b]Nun (נ),[/b] you don't have to do ANYTHING. You don't get neither give. [i]Unlucky you...[/i]
+        If you get [b]Gimel (ג),[/b] you get to take every single token in the pot.
+        If you get [b]Hey (ה),[/b]] you get to take half of the pot.
+        And, if you get [b]Shin (ש),[/b] you need to put a token in the pot.
+        You get a reward for how many tokens you have left. Each token values 5 Bird Coins.
+        Happy spinning!"""
+        markup: True

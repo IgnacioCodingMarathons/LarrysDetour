@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tab.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="menu tab0000" x="0" y="0" width="40" height="33"/>
+	<SubTexture name="menu tab0001" x="40" y="0" width="1" height="33" frameX="0" frameY="0" frameWidth="40" frameHeight="33"/>
+	<SubTexture name="menu tab0002" x="41" y="0" width="40" height="33"/>
+</TextureAtlas>

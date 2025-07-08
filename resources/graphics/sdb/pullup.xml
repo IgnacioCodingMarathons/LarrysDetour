@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pullup.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialogue pullup0000" x="0" y="0" width="65" height="86" frameX="-43" frameY="-81" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0001" x="65" y="0" width="84" height="65" frameX="0" frameY="-61" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0002" x="149" y="0" width="79" height="65" frameX="-6" frameY="-24" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0003" x="0" y="86" width="65" height="77" frameX="-21" frameY="-8" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0004" x="65" y="86" width="65" height="82" frameX="-31" frameY="-3" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0005" x="130" y="86" width="65" height="84" frameX="-36" frameY="-1" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0006" x="0" y="170" width="65" height="85" frameX="-38" frameY="0" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0007" x="65" y="170" width="65" height="85" frameX="-38" frameY="0" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0008" x="65" y="170" width="65" height="85" frameX="-38" frameY="0" frameWidth="108" frameHeight="167"/>
+	<SubTexture name="dialogue pullup0009" x="65" y="170" width="65" height="85" frameX="-36" frameY="0" frameWidth="108" frameHeight="167"/>
+</TextureAtlas>

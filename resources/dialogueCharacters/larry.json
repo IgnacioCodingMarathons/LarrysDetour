@@ -1,0 +1,6 @@
+{
+    "name": "Talking Larry",
+    "typingSound": null,
+    "animationsRoot": "larry",
+    "animations": ["mad","curious","curious with magnifying glass","neutral","whistling"]
+}

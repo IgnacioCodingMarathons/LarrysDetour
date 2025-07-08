@@ -1,0 +1,125 @@
+# WARNING: This is a Kivy layout file for Larry's Detour. This is a critical file in the game, and if it went missing, the game would crash
+# as soon as this layout is displayed. Please don't mess around with this file unless you know what you're doing.
+# WARNING: This Kivy layout file contains Python code. Please absolutely DON'T mess with it. I'm BEGGING you. PLEASE!!!!!!!!!
+#:set tabs ["About","Lore","the actual lore.HIDDEN."]
+# shaky the text
+<ShakyLetter@Label>:
+    font_name: "resources/fonts/vcr.ttf"
+    font_size: 48
+    size_hint: None, None
+    size: self.texture_size
+    canvas.before:
+        PushMatrix
+        Translate:
+            x: self.x + self._dx
+            y: self.y + self._dy
+    canvas.after:
+        PopMatrix
+    _dx: 0
+    _dy: 0
+    on_parent:
+        Clock.schedule_interval(lambda dt: setattr(self, '_dx', randint(-2, 2)), 1/30)
+        Clock.schedule_interval(lambda dt: setattr(self, '_dy', randint(-2, 2)), 1/30)
+<ShakyText@GridLayout>:
+    orientation: "horizontal"
+    spacing: 1
+    size_hint: None, None
+    height: max([c.height for c in self.children]) if self.children else 0
+    width: sum([c.width for c in self.children]) if self.children else 0
+    text: ""
+    on_text:
+        self.clear_widgets()
+        for char in self.text:
+            self.add_widget(Factory.ShakyLetter(text=char))
+# tab layouts
+<About@FloatLayout>:
+    Label:
+        text: "LARRY'S DETOUR V1.0"
+        font_name: "resources/fonts/vcr.ttf"
+        font_size: self.height * 0.25
+        size_hint_y: None
+        height: root.height * 0.4
+        halign: "center"
+        valign: "middle"
+        text_size: self.size
+    # Separator line
+    Label:
+        text: "[b][i]OH NO!!![/i][/b]"
+        markup: True
+    Label:
+        text: """All the Talking Friends have been kidnapped! You, Talking Larry, GOTTA SAVE THEM!!!
+        Go through super fun adventures with Larry!
+        There's also a rando so-called \u0022Feind.\u0022
+        Have fun!"""
+        markup: True
+    Label:
+        # Italic features
+        size_hint: None, None
+        size: self.texture_size
+        pos: root.center_x - self.width / 2, root.center_y - self.height / 2
+        canvas.before:
+            PushMatrix
+            Translate:
+                x: self.center_x
+                y: self.center_y
+            Rotate:
+                angle: -10
+                axis: 0, 0, 1
+            Translate:
+                x: -self.center_x
+                y: -self.center_y
+        canvas.after:
+            PopMatrix
+        # Text
+        text: "[b]Made by [i]CoathangerGMAP and more people.[/i][/b]"
+        text_size: 8
+        markup: True
+<Lore@FloatLayout>:
+    ShakyText:
+        # Italic features
+        size_hint: None, None
+        size: self.texture_size
+        pos: root.center_x - self.width / 2, root.center_y - self.height / 2
+        canvas.before:
+            PushMatrix
+            Translate:
+                x: self.center_x
+                y: self.center_y
+            Rotate:
+                angle: -10
+                axis: 0, 0, 1
+            Translate:
+                x: -self.center_x
+                y: -self.center_y
+        canvas.after:
+            PopMatrix
+        # Text
+        text: "HOLD UP!!!!!!"
+    # Separator line
+    Label:
+        text: "Lore may take too long to load or may overload your PC due to a large block of tab layout to load, parse and render. If you are sure, click Confirm button."
+    Button:
+        text: "Confirm"
+        on_press: app.tabDisplayMenu.goToTab("the actual lore.HIDDEN.")
+    Button:
+        text: "Return"
+        on_press: app.tabDisplayMenu.goToTab("About")
+<the_actual_lore.HIDDEN.@FloatLayout>:
+    Label:
+        text: "LORE"
+        font_name: "resources/fonts/vcr.ttf"
+        font_size: self.height * 0.25
+        size_hint_y: None
+        height: root.height * 0.4
+        halign: "center"
+        valign: "middle"
+        text_size: self.size
+    # Separator line
+    Label:
+        text: """[b][i]This is official lore. Like a wiki page inside a game. Buckle up.[/i][/b]
+        You're Talking Larry. The Talking Friends have been KIDNAPPED. In this game, you save them by going through tons of puzzles, levels, and fun adventures!
+        Save [b]Tom, Angela, Ben, Pierre and Ginger[/b] from their cages!
+        Each [b]cage[/b] means getting 1 key and 5 stones.
+        There are tons of [b]AUs[/b] that you have to get through to get all keys, stones, and do stuff.
+        The game is pretty [b]long.[/b]"""
+        markup: True

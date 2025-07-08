@@ -1,0 +1,14 @@
+# WARNING: This is a Kivy layout file for Larry's Detour. This is a critical file in the game, and if it went missing, the game would crash
+# as soon as this layout is displayed. Please don't mess around with this file unless you know what you're doing.
+<Root>:
+    <Sprite rid="miniclub:dreidel:dreidel" gid="dreidel" spritesheet="yes" animation="dreidel:0000&2" x="center" y="center"/>
+    <Sprite rid="miniclub:dreidel:pot" gid="pot" spritesheet="yes" animation="pot:0000&2" x="center" y="center"/>
+    Button:
+        text: "Spin"
+        on_press: app.scripts.dreidel.spin()
+        pos_hint: {"center_x": 0.5, "bottom": 0.5}
+    Button:
+        text: "Stop playing"
+        on_press: app.scripts.dreidel.exit()
+        pos_hint: {"bottom": 0.5}
+        x: 226.5

@@ -1,0 +1,6 @@
+{
+    "name": "Boyfriend",
+    "typingSound": "boyfriend.wav",
+    "animationsRoot": "boyfriend",
+    "animations": ["normal","angry","super angry","happy","neutral"]
+}

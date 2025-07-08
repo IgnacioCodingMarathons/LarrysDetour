@@ -1,0 +1,73 @@
+{
+    "phone": [
+        {"text":"The number cannot be reached now.","color":"ffffff"},
+        {"text":"Please hang up and try again later.","color":"ffffff"},
+        {"text":"[DISTORTED MUSIC]","color":"ffffff"},
+        {"text":"Hmm, it seems like emergency services are getting interference from a radio station!","color":"6b7573"},
+        {"text":"Oh no...","color":"6b7573"},
+        {"text":"BEEP","color":"f51302"},
+        {"text":"Aw, crap. The line's busy!!!","color":"6b7573"}
+    ],
+    "tree": [
+        {"text":"Oh, hi Larry! Welcome to your tree!","color":"bababa"},
+        {"text":"We have tons of things to do here, I SWEAR!!!","color":"bababa"},
+        {"text":"Just click on me and I will tell you more. JUST CLICKITY CLICK.","color":"bababa"},
+        {"text":"There is currently a map behind me.","color":"bababa"},
+        {"text":"Click on it... and you'll see the whole map that you'll be playing on.","color":"bababa"},
+        {"text":"And, click on a location when you have the map brought up.","color":"bababa"},
+        {"text":"This small action will give you info about that specific area.","color":"bababa"},
+        {"text":"I'm no longer providing information. Stop clicking.","color":"bababa"},
+        {"text":"STOP CLICKING ME","color":"bababa"},
+        {"text":"Grrrrr!!! Stop!!!","color":"bababa"},
+        {"text":"...","color":"bababa"}
+    ],
+    "walkieTalkie-fiend1": [
+        {"text":"Talking Larry, I have a small side quest for you.","color":"c2380e"},
+        {"text":"Can you please go and get me that giant apple from the medical room?","color":"c2380e"},
+        {"text":"Get the key, have a small workout, and snatch the apple out","color":"c2380e"},
+        {"text":"before the security alarm goes off. Be quick though.","color":"c2380e"},
+        {"text":"PLEASE... I'M DYING RIGHT NOW... PLEAAS-","color":"c2380e"},
+        {"text":"Sure will do.","color":"6b7573"}
+    ],
+    "walkieTalkie-scammer1": {"text":"Hey Larry! Dial 1982166**! Don't ask me why, just do it.","color":"f51302"},
+    "phone-scammer": [
+        {"text":"Stupid--","color":"6b7573"},
+        {"text":"NUMBER/;;'''----=]REACH];];]['[];---","color":"ffffff"},
+        {"text":"⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚","color":"ffffff"},
+        {"text":"Welcome to Item Manager. Press 1 to get a surprise item.","color":"ffffff"},
+        {"text":"Enjoy your item!","color":"ffffff"},
+        {"text":"BOOP BOOP","color":"f51302"},
+        {"text":"[SIGH]","color":"6b7573"},
+        {"text":"[HANGS UP]","color":"f51302"},
+        {"text":"Welp, it was a scam, but I was smart enough to avoid it.","color":"6b7573"}
+    ],
+    "medical": [
+        {"text":"[GRUNTING]","color":"6b7573"},
+        {"text":"[BITING]","color":"6b7573"},
+        {"text":"I don't care about him anymore.","color":"6b7573"},
+        {"text":"THE GIANT APPLE... KEY ELEMENT!","color":"6b7573"}
+    ],
+    "snowy":  [
+        {"text":"Ah, thanks for the apple.","color":"c2380e"},
+        {"text":"Here's some rewards while you're at it.","color":"c2380e"},
+        {"text":"To reward you for caring for your friend and...","color":"c2380e"},
+        {"text":"... for your troubles.","color":"c2380e"},
+        {"text":"*COUGH* YOU DON'T HAVE THE GIANT APPLE...","color":"c2380e"},
+        {"text":"GET THE APPLE, THEN COME BACK...","color":"c2380e"}
+    ],
+    "pushGame": [
+        {"text":"[MUSIC]","color":"ffffff"},
+        {"text":"Welcome to Push Game!","color":"ffffff"},
+        {"text":"f'Level {pushGame.level}'","run":true,"color":"ffffff"},
+        {"text":"Stage mode.","color":"ffffff"},
+        {"text":"Memory mode.","color":"ffffff"},
+        {"text":"Rating mode.","color":"ffffff"},
+        {"text":"Team mode.","color":"ffffff"},
+        {"text":"f'Time's up! The final score is {pushGame.score}'","run":true,"color":"ffffff"},
+        {"text":"f'High score: {pushGame.hiscore} points.'","run":true,"color":"ffffff"}
+    ],
+    "larryScared": [
+        {"text":"[YELP]","color":"6b7573"},
+        {"text":"[SCREAMING]","color":"6b7573"}
+    ]
+}

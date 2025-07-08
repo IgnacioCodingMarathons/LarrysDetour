@@ -1,0 +1,1 @@
+function Script() dialogue("mclubHost","greetings","miniclub/host/greetings.wav") end

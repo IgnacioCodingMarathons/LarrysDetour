@@ -1,0 +1,40 @@
+# WARNING: This is a Kivy layout file for Larry's Detour. This is a critical file in the game, and if it went missing, the game would crash
+# as soon as this layout is displayed. Please don't mess around with this file unless you know what you're doing.
+# WARNING: This Kivy layout file contains Python code. Please absolutely DON'T mess with it. I'm BEGGING you. PLEASE!!!!!!!!!
+<LoadingScreen@FloatLayout>:
+    percentage: 0
+    status_line: ""
+    opacity: 0
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    SlideWidget:
+        id: loader
+        size_hint: None, None
+        size: root.width, root.height
+        x: 0
+        y: root.height
+        on_parent: self.start_slide()
+        RelativeLayout:
+            size_hint: None, None
+            size: root.width, root.height
+            SparrowAnimation:
+                atlas: "resources/graphics/loading throbber.xml"
+                interval: 1/30.0
+                size_hint: None, None
+                size: 64, 64
+                pos: 20, root.height - 84
+            Label:
+                id: status_text
+                text: f"{root.percentage}% {root.status_line}"
+                font_size: 20
+                size_hint: None, None
+                size: self.texture_size
+                pos: 100, root.height - 64
+<SlideWidget@Widget>:
+    on_parent:
+        self.start_slide()
+    start_slide: lambda *args: Animation(y=0, d=0.6, t='out_quad').start(self)

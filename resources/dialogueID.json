@@ -1,0 +1,24 @@
+{
+    // feind
+    "feind.sqcomplete":["['snowy'][0]","['snowy'][1]","['snowy'][2]","['snowy'][3]"],
+    "feind.noapple":["['snowy'][0]","['snowy'][1]"],
+    // tree
+    "coathangerTree.greetings":["['tree'][0]","['tree'][1]","['tree'][2]"],
+    "coathangerTree.1":["['tree'][3]","['tree'][4]"],
+    "coathangerTree.2":["['tree'][5]","['tree'][6]"],
+    "coathangerTree.3":"['tree'][7]","coathangerTree.4":"['tree'][8]","coathangerTree.5":"['tree'][9]","coathangerTree.6":"['tree'][10]",
+    // phone
+    "phone.unavailable":["['phone'][0]","['phone'][1]"],
+    "phone.emergencyNoAnswer":["['phone'][2]","['phone'][3]","['phone'][4]"],
+    "phone.busy":["['phone'][5]","['phone'][6]"],
+    // scammer
+    "scammer.wt1":"['walkieTalkie-scammer1'][0]",
+    "scammer.p1":["['phone-scammer'][0]","['phone-scammer'][1]","['phone-scammer'][2]","['phone-scammer'][3]","['phone-scammer'][4]","['phone-scammer'][5]","['phone-scammer'][6]","['phone-scammer'][7]","['phone-scammer'][8]"],
+    // medical room
+    "medical.workout":"['medical'][0]",
+    "medical.hateSQ":["['medical'][1]","['medical'][2]"],
+    "medical.grabbedApple":"['medical'][3]",
+    // snowy biome
+    "snowy.sqComplete":["['snowy'][0]","['snowy'][1]","['snowy'][2]","['snowy'][3]"],
+    "snowy.noApple":["['snowy'][4]","['snowy'][5]"]
+}
