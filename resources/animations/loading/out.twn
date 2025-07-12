@@ -1,0 +1,6 @@
+{
+    "start":0,
+    "anchor":[0,"bottom"],
+    "startPos":[0,0],
+    "actions":[{"op":0,"params":["outBack",0.65,0,"Game.Dimensions.Screen_Height"]}]
+}

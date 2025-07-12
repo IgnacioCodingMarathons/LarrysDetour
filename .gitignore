@@ -20,6 +20,5 @@ to-dos.txt
 *.aup3-wal
 aa.py
 resources/audio/EPISODE.wav
-resources/pickleExporter.py
 # ignore pycache
 resources/srcLibs/__pycache__

@@ -1,5 +1,5 @@
 function Script()
-    pp=pickyPrompt(["Stun for 30 seconds","SHOOT HIM FUCKING 17 TRILLION TIMES"])
+    pp=pickyPrompt("This menu is a secret, but you found it. Now, would you like to either...",["Stun for 30 seconds","SHOOT HIM FUCKING 17 TRILLION TIMES"])
     if pp="SHOOT HIM FUCKING 17 TRILLION TIMES" then
         executeFrom("varrely","stun",{"stunnedHowMuch":60})
         playAnimation("larry","villainSHOOTFUCKING17BILLIONTIMES") -- SHOOT HIM 17 BILLION TIMES WHAT THE FUCK

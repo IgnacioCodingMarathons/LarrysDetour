@@ -1,7 +1,0 @@
-{
-    "NEWS_FAIL":"Failed to fetch news",
-    "TIMEOUT":"Server took too long to respond",
-    "NO_WIFI":"No internet",
-    "404":"The requested resource was not found",
-    "UNACTIVE": "Server is not active"
-}

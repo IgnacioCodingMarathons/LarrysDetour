@@ -1,0 +1,6 @@
+{
+    "start":1,
+    "anchor":["right",0],
+    "startPos":["Game.Dimensions.Screen_Width",-80],
+    "actions":[{"op":0,"params":["outCubic",0.65,"Game.Dimensions.Screen_Width/1.75",-80,90,90,100,100,100,100,0,0,0,0]},{"op":0,"params":["outCubic",0.375,"Game.Scenes.McDonalds.CarX",-80,90,90,118,132,100,100,-75,0,0,0]}]
+}
